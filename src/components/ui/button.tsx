@@ -9,7 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-card hover:shadow-glow",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
@@ -18,9 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        academic: "bg-gradient-academic text-primary-foreground hover:shadow-glow transform hover:scale-105",
-        certificate: "bg-gradient-certificate text-accent-foreground hover:shadow-certificate transform hover:scale-105",
-        campus: "bg-card text-card-foreground border-2 border-primary/20 hover:border-primary hover:bg-primary hover:text-primary-foreground shadow-card hover:shadow-glow",
+        academic: "bg-blue-600 text-white hover:bg-blue-700 transform hover:scale-105 transition-all",
+        certificate: "bg-yellow-500 text-black hover:bg-yellow-600 transform hover:scale-105 transition-all",
+        campus: "bg-card text-card-foreground border-2 border-primary/20 hover:border-primary hover:bg-primary hover:text-primary-foreground",
         success: "bg-success text-success-foreground hover:bg-success/90",
         warning: "bg-warning text-warning-foreground hover:bg-warning/90",
       },

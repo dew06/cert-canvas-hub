@@ -26,8 +26,7 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))',
-					glow: 'hsl(var(--primary-glow))'
+					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -93,7 +92,6 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
 				},
 				'fade-in': {
 					from: { opacity: '0', transform: 'translateY(10px)' },
@@ -109,16 +107,6 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.5s ease-out',
 				'slide-up': 'slide-up 0.4s ease-out'
-			},
-			backgroundImage: {
-				'gradient-academic': 'var(--gradient-academic)',
-				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-certificate': 'var(--gradient-certificate)'
-			},
-			boxShadow: {
-				'card': 'var(--shadow-card)',
-				'certificate': 'var(--shadow-certificate)',
-				'glow': 'var(--shadow-glow)'
 			}
 		}
 	},
